@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "langchain-chat"
+version = "0.1.0"
+description = ""
+authors = ["hieuGoku <ngochieu02.ai@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.109.0"
+uvicorn = "^0.26.0"
+langchain = "^0.1.1"
+streamlit = "^1.30.0"
+faiss-cpu = "^1.7.4"
+openai = "^1.8.0"
+python-dotenv = "^1.0.0"
+pymupdf = "^1.23.16"
+tiktoken = "^0.5.2"
+pillow = "^10.2.0"
+docx2txt = "^0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
